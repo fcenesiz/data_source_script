@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    image: 'project_name:latest'
+    build:
+      context: .
+    container_name: project_name
+    ports:
+      - 8088:8088
